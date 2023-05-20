@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="icon" href="icon/favicon.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Quotes Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="circles-container">
+        <div class="circle-1"></div>
+        <div class="circle-2"></div>
+        <div class="circle-3"></div>
+        <div class="circle-4"></div>
+        <div class="circle-5"></div>
+      </div>
+      <div class="quote-tabs">
+        <div class="animequotes tab">Anime Quotes</div>
+        <div class="philosopherquotes tab">Philosopher Quotes</div>
+        <div class="coffeequotes tab">Coffee Quotes</div>
+      </div>
+      <div id="anime-box" class="quote-box">
+        <div class="x-btn x-anime">X</div>
+        <h2>Anime Quotes</h2>
+        <blockquote>
+          <i class="fa-solid fa-quote-left"></i>
+          <span class="anime-quote"></span>
+          <i class="fa-solid fa-quote-right"></i>
+        </blockquote>
+        <p class="ani-author">~ Character</p>
+        <button class="new-quote btn ani-btn">New Quote</button>
+        <button class="fb anifb btn">
+          <i class="fa-brands fa-facebook"></i>Facebook
+        </button>
+        <button class="tweet anitweet btn">
+          <i class="fa-brands fa-twitter"></i>Twitter
+        </button>
+      </div>
+      <div id="philosopher-box" class="quote-box">
+        <div class="x-btn x-philosopher">X</div>
+        <h2>Philosophy Quotes</h2>
+        <blockquote class="philosopher-quote">
+          <i class="fa-solid fa-quote-left"></i>
+          <span class="phil-quote"></span>
+          <i class="fa-solid fa-quote-right"></i>
+        </blockquote>
+        <p class="phil-author">~ Philosopher</p>
+        <button class="new-quote btn phil-btn">New Quote</button>
+        <button class="fb philfb btn">
+          <i class="fa-brands fa-facebook"></i>Facebook
+        </button>
+        <button class="tweet philtweet btn">
+          <i class="fa-brands fa-twitter"></i>Twitter
+        </button>
+      </div>
+      <div id="coffee-box" class="quote-box">
+        <div class="x-btn x-coffee">X</div>
+        <h2>Coffee Quotes</h2>
+        <blockquote class="coffee-quote">
+          <i class="fa-solid fa-quote-left"></i>
+          <span class="coffee-quote"></span>
+          <i class="fa-solid fa-quote-right"></i>
+        </blockquote>
+        <p class="coffee-author">~ Name</p>
+        <button class="new-quote btn coffee-btn">New Quote</button>
+        <button class="fb coffb btn">
+          <i class="fa-brands fa-facebook"></i>Facebook
+        </button>
+        <button class="tweet coftweet btn">
+          <i class="fa-brands fa-twitter"></i>Twitter
+        </button>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
