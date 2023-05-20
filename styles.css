@@ -247,6 +247,11 @@ transition: all 0.5s;
     .container {
       margin: 0 5%;
     }
+    
+    .tab{
+      width:280px;
+     
+    }
     .circle-1{
       width: 200px;
       height: 200px;
