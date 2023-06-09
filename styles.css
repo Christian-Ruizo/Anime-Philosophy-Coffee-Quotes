@@ -19,6 +19,26 @@ html{
   text-align: center;
 }
 
+
+.codedByMe {
+  position: absolute;
+  top: 82%;
+  width: 170px;
+  color: rgba(0, 255, 255, 0.4);
+  background: rgba(4,201,172,0.1);
+  border-radius: 5px;
+  border: none;
+  outline: 1px solid rgba(0, 255, 255, 0.4);
+  z-index: 100;
+}
+
+.codedByMe:hover {
+ filter: brightness(200%);
+ color: aqua;
+ outline: 1px solid aqua
+}
+
+
 .circle-container {
   width: 100%;
   height: 100vh;
