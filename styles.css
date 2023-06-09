@@ -19,7 +19,6 @@ html{
   text-align: center;
 }
 
-
 .codedByMe {
   position: absolute;
   top: 82%;
@@ -298,5 +297,11 @@ transition: all 0.5s;
 
     .quote-tabs {
       font-size: 1.5rem;
+    }
+    
+    .codedByMe {
+      font-size: .9rem;
+      top: 77%;
+      left: 15%;
     }
     }
