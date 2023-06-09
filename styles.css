@@ -300,6 +300,7 @@ transition: all 0.5s;
     }
     
     .codedByMe {
+      position: relative;
       font-size: .9rem;
       top: 77%;
       left: 15%;
